@@ -1,0 +1,89 @@
+  .destaque{
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    font-family: Bahnschrift SemiBold;
+    padding: 40px;
+    font-size: 35px;
+}
+.sobre{
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    font-family: Bahnschrift SemiBold;
+    padding: 30px;
+    font-size: 25px;
+}
+header{
+    background-color: darkblue;
+    text-align: center;
+    font-family: Bahnschrift SemiBold;
+}
+body{
+    color: black;
+    font-family: Bahnschrift SemiBold;
+}
+h1, h2{
+    color: darkblue;
+    font-family: Bahnschrift SemiBold;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-family: Bahnschrift SemiBold;
+    font-size: 15px;
+}
+ul{
+    margin: 30px;
+    color: black;
+    font-family: Bahnschrift SemiBold;
+    font-size: 15px;    
+}
+img{
+    border: 2px darkblue solid;
+    border-radius: 30%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 250px;
+    float: left;
+}
+.hobbies{
+    clear: both;
+    background-color: lightblue;
+    padding:20px;
+    border: 1px solid darkblue;
+}
+form{
+    width: 450px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px darkblue solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+nav{
+    padding: 15px;
+}
+a{
+    color: darkblue;
+   text-decoration: none;
+}
+a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+footer{
+    background-color: darkblue;
+    text-align: center;
+    font-family: Bahnschrift SemiBold;
+    padding: 20px;
+}
+.rodape{
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    font-size: 15px;
+}
