@@ -1,4 +1,4 @@
-  .destaque{
+.destaque{
     background-color:darkblue;
     color: white;
     text-align: center;
@@ -15,6 +15,7 @@
     font-size: 25px;
 }
 header{
+    grid-column: 1 / 3;
     background-color: darkblue;
     text-align: center;
     font-family: Bahnschrift SemiBold;
@@ -22,6 +23,9 @@ header{
 body{
     color: black;
     font-family: Bahnschrift SemiBold;
+     display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
 }
 h1, h2{
     color: darkblue;
@@ -66,7 +70,15 @@ input, textarea{
     margin-bottom: 16px;
 }
 nav{
-    padding: 15px;
+    grid-column: 1/ 3;
+    grid-row: 2;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+main{
+    grid-column: 1 / 3;
+    grid-row: 3;
 }
 a{
     color: darkblue;
@@ -77,6 +89,8 @@ a:hover{
     text-decoration: underline;
 }
 footer{
+    grid-column: 1 / 3;
+    grid-row: 4;
     background-color: darkblue;
     text-align: center;
     font-family: Bahnschrift SemiBold;
@@ -86,4 +100,18 @@ footer{
     color: white;
     font-family: Bahnschrift SemiBold;
     font-size: 15px;
+}
+.cartoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.cartao{
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
