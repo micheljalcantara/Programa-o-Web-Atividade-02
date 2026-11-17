@@ -5,3 +5,7 @@ Formulário de Contato - Atividade 03
 Atividade  - Aplicando CSS à Página Pessoal
 <img width="1898" height="897" alt="image" src="https://github.com/user-attachments/assets/f238082d-c2f7-421c-baad-1c63ddee2d71" />
 Atividade  - Página Pessoal com Flexbox e Grid 
+<img width="441" height="786" alt="image" src="https://github.com/user-attachments/assets/0c00b640-4c3d-4741-9581-e61879d5324d" />
+<img width="575" height="812" alt="image" src="https://github.com/user-attachments/assets/deeaa5a2-b3e7-42bb-b08c-a0ea2993f875" />
+
+Atividade - CSS Responsiviade
